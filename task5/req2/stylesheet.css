@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+    border: 10px;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    border: 3px solid black;
+}

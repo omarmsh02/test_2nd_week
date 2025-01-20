@@ -1,0 +1,30 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,100px);
+    grid-template-rows: repeat(2,100px);
+    grid-gap: 5px;
+}
+img{
+    height: 200px;
+    width: 200px;
+}
+.a{
+    grid-area: 1 1/2 2 ;
+    max-width: 100%;
+    max-height: 100%;
+}
+.b{
+    grid-area: 1 2/2 2 ;
+    max-width: 100%;
+    max-height: 100%;
+}
+.c{
+    grid-area: 2 1/2 2 ;
+    max-width: 100%;
+    max-height: 100%;
+}
+.d{
+    grid-area: 2 2/2 2 ;
+    max-width: 100%;
+    max-height: 100%;
+}

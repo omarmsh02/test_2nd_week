@@ -1,0 +1,32 @@
+    .container {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(3,1fr);
+        grid-gap: 10px;
+    }
+    
+    .a{
+        background-color: blue;
+        grid-area: 1 1/1 2;
+        border-radius: 10px;
+    }
+    .b{
+        background-color: lightcoral;
+        grid-area: 1 2/1 3;
+        border-radius: 10px;
+    }
+    .c{
+        background-color: darkred;
+        grid-area: 2 1/2 3;
+        border-radius: 10px;
+    }
+    .d{
+        background-color: lightgreen;
+        grid-area: 3 1/3 2;
+        border-radius: 10px;
+    }
+    .e{
+        background-color: lightgreen;
+        grid-area: 3 2/3 3;
+        border-radius: 10px;
+    }

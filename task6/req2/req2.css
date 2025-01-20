@@ -1,0 +1,34 @@
+
+body{
+    margin: 5%;
+    padding: 50px;
+}
+
+
+.container{
+    display:grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 100px 100px 100px;
+    grid-gap: 50px;
+    grid-row-gap: 100px;
+    /*width: 1050px;
+    border: 10px solid black;*/
+}
+.item1{
+    grid-area: 1 1/2 2;
+}
+.item2{
+    grid-area: 1 2/2 3;
+}
+.item1{
+    grid-area: 1 3/2 4;
+}
+.item1{
+    grid-area: 2 1/3 2;
+}
+.item1{
+    grid-area: 2 2/3 3;
+}
+.item1{
+    grid-area: 2 3/3 4;
+}

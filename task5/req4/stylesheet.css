@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+    border: 10px;
+    align-items: flex-end;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: blue;
+    margin: 10px;
+    padding-left: 10px;
+}

@@ -1,0 +1,35 @@
+    .container {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,1fr);
+        grid-gap: 10px;
+        border: 2px solid black;
+        margin: 10px;
+    }
+    .g{
+        border: 2px solid black;
+    }    
+    .a{
+        background-color: blue;
+        grid-area: 1 1/1 2;
+    }
+    .b{
+        background-color: lightcoral;
+        grid-area: 1 2/1 3;
+    }
+    .c{
+        background-color: darkred;
+        grid-area: 1 3/1 4;
+    }
+    .d{
+        background-color: lightgreen;
+        grid-area: 2 1/2 2;
+    }
+    .e{
+        background-color: lightgreen;
+        grid-area: 2 2/2 3;
+    }
+    .f{
+        background-color: lightgreen;
+        grid-area: 2 3/2 4;
+    }
